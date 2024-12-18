@@ -1,0 +1,16 @@
+IN CLI
+for switch configuration
+type en twice and enter each time {
+en 
+en
+}
+config ter
+hostname s1
+interface vlan1
+exit
+exit 
+show run //if needed 
+config terminal
+interface vlan1
+ip address 192.168.10.3 255.255.255.0
+no sh
